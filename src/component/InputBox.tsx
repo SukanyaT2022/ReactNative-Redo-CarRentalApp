@@ -14,11 +14,11 @@ const InputBox = ({item}:checkBoxProp) => {
 export default InputBox
 
 const styles = StyleSheet.create({
-  mainInputStyle:{
+mainInputStyle:{
 borderColor:'green',
 borderWidth:2,
-marginHorizontal:20,
 
+padding:10
   },
 
 
