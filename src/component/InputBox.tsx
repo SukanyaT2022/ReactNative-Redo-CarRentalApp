@@ -17,9 +17,9 @@ const styles = StyleSheet.create({
 mainInputStyle:{
 borderColor:'green',
 borderWidth:2,
-
 padding:10
   },
 
 
 })
+
