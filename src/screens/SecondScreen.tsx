@@ -11,9 +11,9 @@ const SecondScreen = ({navigation}:any) => {
       {/* <Text>SecondScreen</Text>
       <ExtraSmallBoxComp message = "pick the date"/>
       <TouchableOpacity onPress={()=>navigation.navigate("Home")}><Text>Move to  first screen</Text></TouchableOpacity> */}
-      <SelectDateBox message="Selected Date" 
-      
-      />
+      <SelectDateBox message="Selected Date" />
+      <TouchableOpacity onPress={()=>navigation.navigate("ThirdScreen")}><Text>go to third screen</Text></TouchableOpacity>
+
   
     </View>
   )
