@@ -3,6 +3,8 @@ import React from 'react'
 import InputBox from '../component/InputBox'
 import ButtonComponent from '../component/ButtonComponent'
 import SmallInputComponent from '../component/SmallInputComponent'
+import Datepicker2 from '../component/Datepicker2'
+import OnlyTimePicker from '../component/OnlyTimePicker'
 
 const Home = ({navigation}:any) => {
   return (
@@ -22,6 +24,10 @@ const Home = ({navigation}:any) => {
        <View style={{width:'49%'}}>
        <SmallInputComponent nameIcon="rocket" text="Password"/>
        </View>
+      </View>
+      <View>
+        <Datepicker2/>
+        <OnlyTimePicker/>
       </View>
 
 

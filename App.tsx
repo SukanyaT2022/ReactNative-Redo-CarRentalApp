@@ -34,12 +34,13 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from './src/screens/Home';
 import SecondScreen from './src/screens/SecondScreen';
 import ThirdScreen from './src/screens/ThirdScreen';
+import ApiScreen from './src/screens/ApiScreen';
 
 
 
 const Stack = createNativeStackNavigator()
 function App(): React.JSX.Element {
-  
+  console.log('checking')
 
   return (
 
@@ -50,6 +51,7 @@ function App(): React.JSX.Element {
           <Stack.Screen name='Home' component={Home}/>
           <Stack.Screen name='SecondScreen' component={SecondScreen}/>
           <Stack.Screen name='ThirdScreen' component={ThirdScreen}/>
+          <Stack.Screen name='ApiScreen' component={ApiScreen}/>
           
           </Stack.Navigator>
 
